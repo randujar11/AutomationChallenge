@@ -1,12 +1,12 @@
 # Automation Challenge
 
-This Challenge consists an use Page Object Model with the language and automation framework of your choice,The project is expected to be well organized and using best programming practices. 
+This challenge consists of using Page Object Model with the language and automation framework of your choice. The project is expected to be well organised and using best programming practices. 
 
-The application to test will be the contact list application: 
+The application to test will be the contact list application: https://thinking-tester-contact-list.herokuapp.com/
 
 These test cases are:
 
-1. Sign up
+1. Login
 2. Log in
 3. Search for an item using the navigation
 
@@ -30,15 +30,15 @@ These test cases are:
    ```sh
    npm install
    ```
-3. Run the tests using the cypress Test Runner, Type on the terminal:
+3. Run the tests using the Cypress Test Runner, Type on the terminal:
  ```sh
   npx cypress open
    ```
 ## Considerations
-* The dessign pattern is the best cypress practices and combianation of POM.
+* The design pattern is the best cypress practices and combination of POM.
 * Data is created on `fixtures`.
 * Features that are constantly reused are created as custom commands (Login) on `support/commands.js`.
-* I was use two forms to login. 
+* I was using two forms to login. 
 
 ## Acknowledgements
 * [Cypress.io](https://www.cypress.io/).
