@@ -31,8 +31,8 @@ These test cases are:
    npm install
    ```
 3. Run the tests using the Cypress Test Runner, Type on the terminal:
-   ```sh
-  npx cypress open
+    ```sh
+   npx cypress open
    ```
 ## Considerations
 * The design pattern is the best cypress practices and combination of POM.
