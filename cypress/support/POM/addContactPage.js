@@ -12,7 +12,7 @@ class addContact {
         return cy.get('#lastName')
     }
 
-    Birth(){
+    dateBirth(){
         return cy.get('#birthdate')
     }
 
@@ -45,11 +45,11 @@ class addContact {
     }
     
     country(){
-        return cy.get('#postalCode')
+        return cy.get('#country')
     }
 
     submit(){
-        cy.get('#submit')
+        return cy.get('#submit')
     }
 
     cancel(){

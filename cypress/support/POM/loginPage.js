@@ -2,7 +2,7 @@
 class loginPage {
 
     title(){
-        return cy.get('');
+        return cy.get('h1');
     }
 
     email(){
@@ -16,8 +16,6 @@ class loginPage {
     clickOnSubmit(){
         return cy.get('#submit');
     }
-
-     
 }
 
 export const login = new loginPage;

@@ -1,19 +1,22 @@
 import { login } from "../support/POM/loginPage";
 import { contact } from "../support/POM/contactListPage";
+ 
 
-beforeEach( () => {
-    cy.visit('/');
-})
 
 describe('Verify Login', () => {
 
-    /*beforeEach( () => {
+    beforeEach( () => {
         cy.visit('/');
-    })*/
+    
+        //Call data from fixtures
+        cy.fixture('loginCredentials').then(function (data) {
+            this.data = data;
+        })
+    })
 
-    it('Login successful', () => {
-        login.email().type('change@prueba.com')
-        login.password().type('Prueba123.')
+    it('Login successful', function () {
+        login.email().type(this.data.email)
+        login.password().type(this.data.password)
         login.clickOnSubmit().click()
         contact.title().should('contain', 'Contact List')
     })
