@@ -41,6 +41,6 @@ These test cases are:
 * Data is created on `fixtures`.
 * Features constantly reused are created as custom commands (Login) on `support/commands.js`.
 * I am using two forms to login.
-* 
+  
 ## Acknowledgements
 * [Cypress.io](https://www.cypress.io/).
