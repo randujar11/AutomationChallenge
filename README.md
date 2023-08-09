@@ -6,9 +6,9 @@ The application to test will be the contact list application: https://thinking-t
 
 These test cases are:
 
-1. Login
-2. Log in
-3. Search for an item using the navigation
+1. Login successful.
+2. Add contacts.
+3. Contact Details.
 
 ## Tools and technologies
 
@@ -16,6 +16,7 @@ These test cases are:
 * Cypress.io
 
 ## How to run the tests locally
+
 ### Pre-requisites
 
 * Node.js needs to be installed
@@ -34,11 +35,15 @@ These test cases are:
    ```sh
    npx cypress open
    ```
+4. Select the option E2E Testing:
+   
+
+
 ## Considerations
 * The design pattern is the best cypress practices and combination of POM.
 * Data is created on `fixtures`.
-* Features that are constantly reused are created as custom commands (Login) on `support/commands.js`.
-* I was using two forms to login. 
+* Features constantly reused are created as custom commands (Login) on `support/commands.js`.
+* I am using two forms to login. 
 
 ## Acknowledgements
 * [Cypress.io](https://www.cypress.io/).
