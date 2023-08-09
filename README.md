@@ -36,13 +36,13 @@ These test cases are:
    npx cypress open
    ```
 4. Select the option E2E Testing:
-   ![image](https://github.com/randujar11/AutomationChallenge/assets/20642003/18b4bf48-20e3-49cd-84e1-ba7659690e58)
+   ![step1](https://github.com/randujar11/AutomationChallenge/assets/20642003/18b4bf48-20e3-49cd-84e1-ba7659690e58)
    
 5.  Choose a browser and click on Start E2E Testing:
-   ![image](https://github.com/randujar11/AutomationChallenge/assets/20642003/a4056edf-82fe-4993-baa3-90bb896350b4)
+   ![step2](https://github.com/randujar11/AutomationChallenge/assets/20642003/a4056edf-82fe-4993-baa3-90bb896350b4)
 
 6. Choose de test:
-   ![image](https://github.com/randujar11/AutomationChallenge/assets/20642003/658fd087-0578-4973-bc03-1e9377f62b66)
+   ![step3](https://github.com/randujar11/AutomationChallenge/assets/20642003/658fd087-0578-4973-bc03-1e9377f62b66)
 
 ## Considerations
 * The design pattern is the best cypress practices and combination of POM.
