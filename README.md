@@ -48,7 +48,7 @@ These test cases are:
 * The design pattern is the best cypress practices and combination of POM.
 * Data is created on `fixtures`.
 * Features constantly reused are created as custom commands (Login) on `support/commands.js`.
-* I am using two forms to login. 
-
+* I am using two forms to login.
+* 
 ## Acknowledgements
 * [Cypress.io](https://www.cypress.io/).
