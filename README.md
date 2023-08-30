@@ -31,9 +31,9 @@ These test cases are:
    npm install
    ```
 3. Run the tests using the cypress Test Runner, Type on the terminal:
- ```sh
+   ```sh
   npx cypress open
-   ```
+  ```
 ## Considerations
 * The dessign pattern is the best cypress practices and combianation of POM.
 * Data is created on `fixtures`.

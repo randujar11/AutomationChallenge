@@ -21,6 +21,46 @@ import { contact } from "../support/POM/contactListPage";
       contact.title().should('be.visible')
       contact.addContact().should('be.visible')
  })
+
+ Cypress.Commands.add("getAPI", (url,headrs) => {
+
+     cy.request({
+          method: 'GET',
+          url: url,
+          headers: headrs
+     })
+ })
+
+ Cypress.Commands.add("postAPI", (url,headrs, payload) => {
+
+     cy.request({
+          method: 'POST',
+          url: url,
+          headers: headrs,
+          body: payload
+     })
+ })
+
+ Cypress.Commands.add("putAPI", (url,headrs) => {
+
+     cy.request({
+          method: 'PUT',
+          url: url,
+          headers: headrs
+     })
+ })
+
+ Cypress.Commands.add("deleteAPI", (url,headrs) => {
+
+     cy.request({
+          method: 'DELETE',
+          url: url,
+          headers: headrs
+     })
+ })
+
+
+
 //
 //
 // -- This is a child command --
