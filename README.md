@@ -31,7 +31,6 @@ These test cases are:
    ```sh
    npm install
    ```
-<<<<<<< HEAD
 3. Run the tests using the Cypress Test Runner, Type on the terminal:
    ```sh
   npx cypress open
