@@ -32,27 +32,15 @@ These test cases are:
    npm install
    ```
 <<<<<<< HEAD
-3. Run the tests using the cypress Test Runner, Type on the terminal:
+3. Run the tests using the Cypress Test Runner, Type on the terminal:
    ```sh
   npx cypress open
   ```
 ## Considerations
-* The dessign pattern is the best cypress practices and combianation of POM.
+* The design pattern is the best cypress practices and combinations of POM.
 * Data is created on `fixtures`.
 * Features that are constantly reused are created as custom commands (Login) on `support/commands.js`.
-* I was use two forms to login. 
-=======
-3. Run the tests using the Cypress Test Runner, Type on the terminal:
-   ```sh
-   npx cypress open
-   ```
->>>>>>> 416524b9b153034d2164d65800c112b900bc5cf4
-
-## Considerations
-* The design pattern is the best cypress practices and combination of POM.
-* Data is created on `fixtures`.
-* Features constantly reused are created as custom commands (Login) on `support/commands.js`.
-* I am using two forms to login.
+* I was using two forms to login. 
   
 ## Acknowledgements
 * [Cypress.io](https://www.cypress.io/).
